@@ -1,0 +1,28 @@
+* {box-sizing: border-box;}
+.container {
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.container > div {
+    border-radius: 5px;
+    background-color: rgba(233,171,88,.5);
+    padding: 1em;
+    color: #d9480f;
+}.container {
+    display: flex;
+    display: grid;
+    grid-template-columns: 20em 1fr;
+    grid-gap: 5px;
+    
+}
+
+.menu {
+   flex: 1;
+  
+}
+
+.home {
+  flex: 4;
+
+}
